@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TaijiView.h
 //  TaiJi
 //
 //  Created by AbelSu on 16/3/12.
@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TaijiView.h"
 
-@interface ViewController : UIViewController{
-    TaijiView *taiji;
+@interface TaijiView : UIView {
+    NSTimer *_timer; //声明时间定时器对象
+    float currentIndex;
 }
 
-
 @end
-

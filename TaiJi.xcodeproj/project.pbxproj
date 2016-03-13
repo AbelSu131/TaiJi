@@ -13,6 +13,7 @@
 		BCFB87951C93F93E00D3246F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87931C93F93E00D3246F /* Main.storyboard */; };
 		BCFB87971C93F93E00D3246F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87961C93F93E00D3246F /* Assets.xcassets */; };
 		BCFB879A1C93F93E00D3246F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB87981C93F93E00D3246F /* LaunchScreen.storyboard */; };
+		BCFB87A31C93F9AF00D3246F /* TaijiView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB87A21C93F9AF00D3246F /* TaijiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BCFB87961C93F93E00D3246F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCFB87991C93F93E00D3246F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCFB879B1C93F93E00D3246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFB87A11C93F9AF00D3246F /* TaijiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaijiView.h; sourceTree = "<group>"; };
+		BCFB87A21C93F9AF00D3246F /* TaijiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaijiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BCFB878E1C93F93E00D3246F /* AppDelegate.m */,
 				BCFB87901C93F93E00D3246F /* ViewController.h */,
 				BCFB87911C93F93E00D3246F /* ViewController.m */,
+				BCFB87A11C93F9AF00D3246F /* TaijiView.h */,
+				BCFB87A21C93F9AF00D3246F /* TaijiView.m */,
 				BCFB87931C93F93E00D3246F /* Main.storyboard */,
 				BCFB87961C93F93E00D3246F /* Assets.xcassets */,
 				BCFB87981C93F93E00D3246F /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				BCFB87921C93F93E00D3246F /* ViewController.m in Sources */,
 				BCFB878F1C93F93E00D3246F /* AppDelegate.m in Sources */,
+				BCFB87A31C93F9AF00D3246F /* TaijiView.m in Sources */,
 				BCFB878C1C93F93E00D3246F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

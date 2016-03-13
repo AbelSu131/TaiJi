@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    taiji = [[TaijiView alloc]initWithFrame:CGRectMake(50.0f, 80.0f, 230.0f, 320.0f)]; //实例化对象
+    [self.view addSubview:taiji];
 }
 
 - (void)didReceiveMemoryWarning {
